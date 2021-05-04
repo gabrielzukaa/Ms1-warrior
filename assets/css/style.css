@@ -10,15 +10,16 @@
 .navbar{
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.6) !important;
+    height: 80px;
+}
+
+#logo-img {
+    width: 200px;
 }
 
 .navbar-brand {
-    background: url("../images/logo_transparent-removebg-preview.png");
-    width: 200px;
-    height: 65px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    position: relative;
+    bottom: 2px;
 }
 
 .navbar-nav {
@@ -36,7 +37,57 @@
     height: auto;
     min-height: 805px;
     background-position: center;
-    background-position: cover;
+    background-size: cover;
     position: relative;
     bottom: 230px;
 }
+
+ @media only screen and (max-width: 576px) {
+    .navbar,
+    .navbar-brand,
+    #logo-img { 
+        height: 62px;   
+    }
+
+    #logo-img {
+        position: relative;
+        bottom: 10px;
+        right: 20px;
+    }
+
+    #hero-vid {
+        position: absolute;
+        bottom: 65px;
+    }
+    }
+
+@media only screen and (min-width: 576px) {
+    .navbar,
+    .navbar-brand,
+    #logo-img { 
+        height: 70px;   
+    }
+    #logo-img {
+        position: relative;
+        bottom: 10px;
+        right: 5px;
+    }
+        
+    #hero-vid {
+        position: absolute;
+        bottom: 30px;
+    }
+    }
+
+@media only screen and (min-width: 768px) {
+    .navbar,
+    .navbar-brand,
+    #logo-img { 
+        height: 75px;   
+    }
+        
+    #logo-img {
+        position: relative;
+        bottom: 10px;
+    }
+    } 
