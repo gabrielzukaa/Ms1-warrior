@@ -11,29 +11,29 @@
 </head>
 <body>
     <header>
-        <div class="cointainer-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-color-main">
-              <a class="navbar-brand" href="index.html">
-                <img src="/assets/images/logo_transparent-removebg-preview.png" alt="Logo" id="logo-img">
-              </a>
-              <button type="button" class="btn btn-dark btn-lg" id="btn-home" href="index.html" role="button"></button>
-              <button type="button" class="btn btn-dark btn-lg" id="btn-programmes" href="#" role="button"></button>
-              <button type="button" class="btn btn-dark btn-lg" id="btn-gallery" href="#" role="button"></button>
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" id="home-item" href="index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="programmes-item" href="#">Programmes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="gallery-item" href="#">Gallery</a>
-                </li>
-              </ul>
-              
-          </nav>
           <video src="/assets/videos/180419_Boxing_15_06.mp4" id="hero-vid" loop muted autoplay></video>
-        </div>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-color-main" id="bg-transparent-nav">
+            <a class="navbar-brand" href="index.html">
+              <img src="/assets/images/logo_transparent-removebg-preview.png" alt="Logo" id="logo-img">
+            </a>
+          </nav>
+          <nav class="navbar navbar-expand-lg navbar-light bg-dark" id="bg-transparent-nav">
+            <a class="navbar-brand" href="index.html"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active color-text-white" href="#">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link color-text-white" href="#">Pogrammes</a>
+                <a class="nav-link color-text-white" href="#">Gallery</a>
+              </div>
+            </div>
+          </nav>
+          <div class="jumbotron color-text-white">
+            <h2 class="lead">Become the best version of yourself!</h2>
+            <button type="button" class="btn btn-dark btn-lg" id="btn-invisible-join" href="#" role="button">Sign Up</button>
+          </div>
     </header>
     <section>
 

@@ -6,11 +6,16 @@
     background-color: #000 !important;
 }
 
+.color-text-white {
+    color: #fff;
+}
 /*----------------------------------Heading */
-.navbar{
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.6) !important;
+.navbar {
+    z-index: 3;
     height: 80px;
+    position: absolute;
+    width: 100%;
+    top: 0px;
 }
 
 #logo-img {
@@ -28,6 +33,9 @@
     font-size: 20px;
     font-family: "Roboto", sans-serif;
     margin-right: 20px;
+    z-index: 10px;
+    position: absolute;
+    top: 15px;
 }
 
 .navbar-nav li {
@@ -44,17 +52,37 @@
     bottom: 230px;
 }
 
-#home-item {
-    margin-right: 70px;
+#bg-transparent-nav {
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
-#gallery-item {
-    margin-top: 5px;
-}
-
-.btn {
+.btn-invisible {
     visibility: hidden;
 }
+
+.jumbotron {
+    font-family: "Roboto",sans-serif;
+    z-index: 1;
+    position: absolute;
+    left: 115px;
+    top: 245px;
+    background: none;
+}
+
+.lead {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    right: 70px;
+}
+
+#btn-invisible-join {
+    position: absolute;
+    left: 130px;
+}
+
+/*---------------------------------- Media queries*/
 
  @media only screen and (max-width: 576px) {
     .navbar,
@@ -63,10 +91,17 @@
         height: 55px;
     }
 
+    .navbar-nav {
+        position: absolute;
+        bottom: 975px;
+        right: 0px;
+        font-size: 15px;
+    }
+
     #logo-img {
         position: relative;
-        bottom: 40px;
-        left: 50px;
+        bottom: 22px;
+        left: -20px;
     }
 
     #hero-vid {
@@ -75,68 +110,16 @@
         top: 0.1px;
     }
 
-    #home-item {
-        top: 255px;
-        position: absolute;
-        right: 220px;
+    .jumbotron {
+        visibility: hidden;
     }
 
-    #programmes-item {
-        top: 255px;
-        position: absolute;
-        right: 127px;
-        
-    }
-
-    #gallery-item {
-        top: 250px;
-        position: absolute;
-        right: 35px; 
-    }
-
-    #home-item,
-    #programmes-item,
-    #gallery-item {
-        color: red;
-    }
-
-    .btn {
-        padding: 15px 40px;
-        font-size: 25px;
-        visibility: visible;
-        position: relative;
-        top: 200px;
-        display: block;
-    }
-
-    .btn li {
-        position: fixed;
-    }
-
-    #btn-home {
-        position: relative;
-        right: 260px;
-        padding-top: 20px;
-        margin-top: 53px;
-    }
-    
-    #btn-programmes {
-        position: relative;
-        left: 95px;
-        padding-top: 20px;
-        margin-top: -36px;
-        padding-left: 90px;
-    }
-
-    #btn-gallery {
-        position: relative;
-        left: 105px;
-        padding-top: 20px;
-        margin-top: -36px;
+    #btn-invisible-join{
+        visibility: hidden;
     }
     }
 
-@media only screen and (min-width: 576px) and (max-width: 768px) {
+@media only screen and (min-width: 576px) {
     .navbar,
     .navbar-brand,
     #logo-img { 
@@ -154,23 +137,11 @@
         bottom: 100px;
     }
 
-    #home-item {
-        bottom: 10px;
+    .navbar-nav {
         position: absolute;
-        right: 210px; 
-    }
-
-    #programmes-item {
-        bottom: 10px;
-        position: absolute;
-        right: 127px;
-        
-    }
-
-    #gallery-item {
-        bottom: 8px;
-        position: absolute;
-        right: 35px; 
+        bottom: 970px;
+        right: 0px;
+        font-size: 18px;
     }
     }
 
@@ -187,22 +158,11 @@
         bottom: 20px;
     }
 
-    #home-item {
-        top: 15px;
+    .navbar-nav {
         position: absolute;
-        right: 300px;  
-    }
-
-    #programmes-item {
-        top: 15px;
-        position: absolute;
-        right: 200px;
-    }
-
-    #gallery-item {
-        bottom: 8px;
-        position: absolute;
-        right: 80px;
+        bottom: 965px;
+        right: 0px;
+        font-size: 20px;
     }
     }
 
@@ -215,6 +175,6 @@
         #hero-vid {
             position: relative;
             min-height: 1px;
-            bottom: 200px;
+            bottom: 100px;
         }
     } 
