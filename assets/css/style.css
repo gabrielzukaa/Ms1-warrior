@@ -1,180 +1,187 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 
-/*----------------------------------Colours */
+/*----------------------------------------Colours*/
 
-.bg-color-main {
-    background-color: #000 !important;
+/*----------------------------------------Heading*/
+header {
+    margin: 0;
 }
 
-.color-text-white {
-    color: #fff;
-}
-/*----------------------------------Heading */
-.navbar {
-    z-index: 3;
-    height: 80px;
-    position: absolute;
-    width: 100%;
-    top: 0px;
-}
-
-#logo-img {
-    width: 200px;
-    margin: 10px;
-    padding-top: 3px;
-}
-
-.navbar-brand {
+.logo {
+    width: 220px;
     position: relative;
-    bottom: 2px;
-}
-
-.navbar-nav {
-    font-size: 20px;
-    font-family: "Roboto", sans-serif;
-    margin-right: 20px;
-    z-index: 10px;
-    position: absolute;
-    top: 15px;
-}
-
-.navbar-nav li {
-    margin-right: 40px;
-}
-
-#hero-vid {
-    width: 100%;
-    height: auto;
-    min-height: 805px;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    bottom: 230px;
-}
-
-#bg-transparent-nav {
-    z-index: 2;
-    background-color: rgba(0, 0, 0, 0.6) !important;
-}
-
-.btn-invisible {
-    visibility: hidden;
-}
-
-.jumbotron {
-    font-family: "Roboto",sans-serif;
     z-index: 1;
-    position: absolute;
-    left: 115px;
-    top: 245px;
-    background: none;
 }
 
-.lead {
-    font-size: 30px;
-    font-weight: bold;
+.navbar {
     position: relative;
-    right: 70px;
+    bottom: 100px;
+    padding-top: 45px;
+    padding-bottom: 0px;
+    background-color: rgba( 0, 0, 0, 0.6) !important;
 }
 
-#btn-invisible-join {
-    position: absolute;
-    left: 130px;
+.nav-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    margin-right: 50px;
 }
 
-/*---------------------------------- Media queries*/
+.nav-item {
+    position: relative;
+    bottom: 10px;
+}
 
- @media only screen and (max-width: 576px) {
-    .navbar,
-    .navbar-brand,
-    #logo-img { 
-        height: 55px;
+.heading {
+    width: 0px;
+    height: 0px;
+}
+
+/*----------------------------------------Media queries*/
+
+@media only screen and (max-width: 360px) {
+    .logo {
+        bottom: 7px;
+        margin-left: 56px;
+        width: 175px;
+        position: relative;     
     }
-
-    .navbar-nav {
-        position: absolute;
-        bottom: 975px;
-        right: 0px;
+    .navbar-toggler {
+        position: relative;
+        bottom: 6px;
+        margin-left: 250px;
         font-size: 15px;
     }
+    
+    .col-md-2{
+        width: 100px;
+        height: 75px;
+    }
+}
 
-    #logo-img {
+@media only screen and (min-width: 360px) {
+    .logo {
+        bottom: 7px;
+        margin-left: 70px;
+        width: 175px;
+        position: relative;     
+    }
+    .navbar-toggler {
         position: relative;
-        bottom: 22px;
-        left: -20px;
+        bottom: 6px;
+        margin-left: 280px;
+        font-size: 15px;
     }
+    
+    .col-md-2{
+        width: 100px;
+        height: 75px;
+    }
+}
 
-    #hero-vid {
-        position: absolute;
-        min-height: 50px;
-        top: 0.1px;
+@media only screen and (min-width: 375px) {
+    .logo {
+        bottom: 7px;
+        margin-left: 80px;
+        width: 175px;
+        position: relative;     
     }
-
-    .jumbotron {
-        visibility: hidden;
-    }
-
-    #btn-invisible-join{
-        visibility: hidden;
-    }
-    }
-
-@media only screen and (min-width: 576px) {
-    .navbar,
-    .navbar-brand,
-    #logo-img { 
-        height: 65px;   
-    }
-    #logo-img {
+    .navbar-toggler {
         position: relative;
-        bottom: 25px;
-        right: 5px;
+        bottom: 6px;
+        margin-left: 300px;
+        font-size: 15px;
     }
-        
-    #hero-vid {
-        position: relative;
-        min-height: 1px;
-        bottom: 100px;
+    
+    .col-md-2{
+        width: 100px;
+        height: 75px;
     }
+}
 
-    .navbar-nav {
-        position: absolute;
-        bottom: 970px;
-        right: 0px;
+@media only screen and (min-width: 414px) {
+    .logo {
+        bottom: 7px;
+        margin-left: 100px;
+        width: 175px;
+        position: relative;     
+    }
+    .navbar-toggler {
+        position: relative;
+        bottom: 6px;
+        margin-left: 340px;
+        font-size: 15px;
+    }
+    
+    .col-md-2{
+        width: 100px;
+        height: 75px;
+    }
+}
+
+@media only screen and (min-width: 556px) {
+    .logo {
+        bottom: 7px;
+        margin-left: 175px;
+        width: 180px;
+        position: relative;     
+    }
+    .navbar-toggler {
+        position: relative;
+        bottom: 6px;
+        margin-left: 465px;
+        font-size: 17px;
+    }
+    
+    .col-md-2{
+        width: 100px;
+        height: 75px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .logo {
+        bottom: 7px;
+        margin-left: 205px;
+        width: 185px;
+        position: relative;     
+    }
+    .navbar-toggler {
+        position: relative;
+        bottom: 6px;
+        margin-left: 506px;
         font-size: 18px;
     }
+    
+    .col-md-2{
+        width: 100px;
+        height: 75px;
+    }
+} 
+
+@media only screen and (min-width: 768px) {  /*--------Take out button--------*/
+    .logo {
+        bottom: 0px;
+        margin-left: 0px;
+        width: 195px;
+    }
+    .col-md-2{
+        width: 100px;
+        height: 90px;
     }
 
-@media only screen and (min-width: 768px) {
-    .navbar,
-    .navbar-brand,
-    #logo-img { 
-        height: 70px;
-        bottom: 3px;   
+}
+@media only screen and (min-width: 992px) {
+    .logo {
+        bottom: 0px;
+        margin-left: 10px;
+        width: 200px;
     }
-        
-    #logo-img {
-        position: relative;
-        bottom: 20px;
+}
+@media only screen and (min-width: 1200px) {
+    .logo {
+        bottom: 2px;
+        margin-left: 10px;
+        width: 200px;
     }
-
-    .navbar-nav {
-        position: absolute;
-        bottom: 965px;
-        right: 0px;
-        font-size: 20px;
-    }
-    }
-
-    @media only screen and (min-width: 992px) {
-        #logo-img {
-            position: relative;
-            bottom: 10px;
-        }
-
-        #hero-vid {
-            position: relative;
-            min-height: 1px;
-            bottom: 100px;
-        }
-    } 
+}
