@@ -15,7 +15,7 @@ header {
 .logo {
     width: 220px;
     position: relative;
-    z-index: 1;
+    z-index: 30;
 }
 
 .navbar {
@@ -23,7 +23,7 @@ header {
     bottom: 100px;
     padding-top: 45px;
     padding-bottom: 0px;
-    background-color: rgba( 0, 0, 0, 0.6) !important;
+    background-color: rgba(0, 0, 0, 0.6)
 }
 
 .nav-link {
@@ -53,6 +53,18 @@ header {
     right: 16px;
 }
 
+#hero-vid {
+    width: 100%;
+    height: auto;
+}
+
+.controlsOverlay {
+    overflow: hidden;
+}
+
+#navbarNav {
+    background-color: transparent;
+}
 .navbar-static-top { /*----------------------------------------Sticky Top*/
     position: relative;
     top: 0px;
@@ -67,83 +79,85 @@ header {
 
 @media only screen and (max-width: 576px) {
     .logo {
-        bottom: 5px;
-        margin-left: 4px;
+        bottom: 2px;
+        margin-left: 85px;
         width: 160px;
         position: relative;     
     }
     .navbar-toggler {
         position: relative;
-        bottom: -2px;
-        font-size: 10px;
+        top: 20px;
+        font-size: 15px !important;
     }
     
-    .col-md-2{
-        width: 100px;
-        height: 95px;
+    .navbar {
+        width: 100%;
+        height: 100px;
     }
 }
 
 @media only screen and (min-width: 576px) {
     .logo {
-        bottom: 7px;
+        bottom: 2px;
         width: 170px;
-        position: relative;     
+        position: relative;
+        margin-left: 178px;
     }
+
     .navbar-toggler {
         position: relative;
-        bottom: -2px;
-        font-size: 10px;
+        bottom: -18px;
+        font-size: 13px !important;
     }
     
-    .col-md-2{
-        width: 100px;
+    .navbar {
+        width: 100%;
         height: 95px;
     }
 }
 
 @media only screen and (min-width: 600px) {
     .logo {
-        bottom: 7px;
+        bottom: 2px;
         width: 170px;
         position: relative;
     }
     .navbar-toggler {
         position: relative;
-        bottom: -2px;
-        font-size: 18px;
+        bottom: -18px;
+        font-size: 18px !important;
     }
     
-    .col-md-2{
-        width: 100px;
+    .navbar {
+        width: 100%;
         height: 95px;
     }
 } 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) { /*----------------------------------------Take out button*/
     .logo {
-        bottom: 6px;
-        width: 180px;
+        bottom: 0px;
+        width: 190px;
         position: relative;
     }
-    .col-md-2{
-        width: 100px;
+    .navbar {
+        width: 100%;
         height: 100px;
     }
 }
 @media only screen and (min-width: 992px) {
     .logo {
-        bottom: 2px;
-        width: 170px;
+        bottom: 0px;
+        width: 190px;
         position: relative;
+        right: 175px;
     }
 
     .nav-item {
         position: relative;
-        height: 50px;
+        height: 0px;
         margin-right: 17px;
         right: 10px;
-        top: 5px;
     }
 
     .nav-link {
@@ -153,18 +167,26 @@ header {
     .navbar-text {
         position: relative;
         right: 20px;
+        margin-right: 7px;
+        margin-top: 28px;
+    }
+
+    .btn-secondary{
+        margin-right: 7px;
+        position: relative;
+        right: 16px;
+        margin-top: 25px;
     }
 }
 @media only screen and (min-width: 1200px) {
     .logo {
-        bottom: 5px;
-        margin-left: 0px;
+        margin-left: 170px;
         width: 200px;
     }
 
     .nav-item {
         position: relative;
-        height: 50px;
+        height: 25px;
         margin-right: 22px;
         top: 5px;
         left: 125px;
