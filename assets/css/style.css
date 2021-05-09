@@ -7,44 +7,33 @@
     text-transform: uppercase;
 }
 /*----------------------------------------Heading*/
-header {
-    margin: 0;
-    overflow-x: hidden;
-}
 
 .logo {
     width: 220px;
     position: relative;
     z-index: 30;
-}
-
-.navbar {
-    position: relative;
-    bottom: 100px;
-    padding-top: 45px;
-    padding-bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.6)
+    left: 15px;
 }
 
 .nav-link {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    margin-right: 15px;
+    font-size: 24px;
+    margin-right: 25px;
+    margin-top: 6px;
 }
 
 .nav-link:hover{
-    text-decoration: underline;
     background-color: #6c757d;
     border-color: #6c757d;
     transition: ease-in;
 }
 
 .navbar-text {
-    margin-right: 12px;
     font-family: "Exo", sans-serif;
-    font-size: 11px;
-    margin-top: 7px;
+    font-size: 15px;
+    bottom: 15px;
     position: relative;
+    display: inline-block;
 }
 
 .btn-secondary{
@@ -56,150 +45,72 @@ header {
 #hero-vid {
     width: 100%;
     height: auto;
-}
-
-.controlsOverlay {
-    overflow: hidden;
-}
-
-#navbarNav {
-    background-color: transparent;
-}
-.navbar-static-top { /*----------------------------------------Sticky Top*/
     position: relative;
-    top: 0px;
+    bottom: 110px;
 }
 
-.heading {
-    width: 0px;
-    height: 0px;
+.navbar {
+    padding: 0px;
+    background-color: rgba( 0, 0, 0, 0.3);
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.sticky-top {
+    padding: 0px !important;
 }
 
 /*----------------------------------------Media queries*/
 
 @media only screen and (max-width: 576px) {
     .logo {
-        bottom: 2px;
-        margin-left: 85px;
-        width: 160px;
-        position: relative;     
-    }
-    .navbar-toggler {
+        width: 195px;
         position: relative;
-        top: 20px;
-        font-size: 15px !important;
+        z-index: 30;
     }
     
-    .navbar {
-        width: 100%;
-        height: 100px;
+    .navbar-toggler {
+        position: relative;
+        margin-right: 10px;
     }
 }
 
 @media only screen and (min-width: 576px) {
     .logo {
-        bottom: 2px;
-        width: 170px;
+        width: 195px;
         position: relative;
-        margin-left: 178px;
+        z-index: 30;
     }
 
-    .navbar-toggler {
+    #hero-vid {
+        width: 100%;
+        height: auto;
         position: relative;
-        bottom: -18px;
-        font-size: 13px !important;
+        bottom: 135px;
+    }
+
+    .navbar {
+        height: 70px;
     }
     
-    .navbar {
-        width: 100%;
-        height: 95px;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .logo {
-        bottom: 2px;
-        width: 170px;
-        position: relative;
-    }
-    .navbar-toggler {
-        position: relative;
-        bottom: -18px;
-        font-size: 18px !important;
-    }
-    
-    .navbar {
-        width: 100%;
-        height: 95px;
-    }
-} 
-
-@media only screen and (min-width: 768px) { /*----------------------------------------Take out button*/
-    .logo {
-        bottom: 0px;
-        width: 190px;
-        position: relative;
-    }
-    .navbar {
-        width: 100%;
-        height: 100px;
-    }
-}
-@media only screen and (min-width: 992px) {
-    .logo {
-        bottom: 0px;
-        width: 190px;
-        position: relative;
-        right: 175px;
-    }
-
     .nav-item {
         position: relative;
-        height: 0px;
-        margin-right: 17px;
-        right: 10px;
+        left: 120px;
     }
 
-    .nav-link {
-        font-size: 15px;
-    }
-
-    .navbar-text {
+    .slogan {
         position: relative;
-        right: 20px;
-        margin-right: 7px;
-        margin-top: 28px;
+        left: 70px;
+        height: 20px;
+        width: 10px;
     }
-
-    .btn-secondary{
-        margin-right: 7px;
-        position: relative;
-        right: 16px;
-        margin-top: 25px;
-    }
+}
+@media only screen and (min-width: 768px) {
 }
 @media only screen and (min-width: 1200px) {
-    .logo {
-        margin-left: 170px;
-        width: 200px;
-    }
-
-    .nav-item {
-        position: relative;
-        height: 25px;
-        margin-right: 22px;
-        top: 5px;
-        left: 125px;
-    }
-
-    .nav-link {
-        position: relative;
-        right: 200px;
-        font-size: 17px;
-    }
-    
-    .navbar-text {
-        position: relative;
-        right: 20px;
-    }
 }
