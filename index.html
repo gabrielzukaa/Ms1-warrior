@@ -14,7 +14,7 @@
       <div class="container-fluid">
       <div class="row">
         <div class="col-12">
-          <nav class="navbar navbar-expand-sm sticky-top navbar-expand-lg navbar-dark">
+          <nav class="navbar navbar-expand-md sticky-top navbar-expand-lg navbar-dark">
             <div class="col-2 col-6-sm">
               <a href="index.html">
                 <img class="logo" src="/assets/images/logo_transparent-removebg-preview.png" alt="Logo">
@@ -26,7 +26,7 @@
               </button>
             </div>
                 <div class="collapse navbar-nav-scroll navbar-collapse" id="navbarNav">
-                  <div class="col-8">
+                  <div class="col-6">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                       <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
@@ -39,10 +39,9 @@
                     </li>
                   </ul>
                 </div>
-                <div class="slogan col-2">
-                  <span class="navbar-text">Become the best version of yourself!</span>
-                  <button type="button" class="btn uppercase btn-secondary" data-toggle="modal" data-target="#login">Login</button>
-                  <button type="button" class="btn uppercase btn-secondary" data-toggle="modal" data-target="#join">Join Us!</button>
+                <div class="col-4">
+                  <button type="button" class="user-input btn uppercase btn-success" data-toggle="modal" data-target="#login">Sign in</button>
+                  <button type="button" class="user-input btn uppercase btn-success" data-toggle="modal" data-target="#join">Join Us!</button>
                 </div>
                 </div>
               </nav>
@@ -54,47 +53,7 @@
             </div>
           </div>
       </div>
-        
-      
-    <div class="modal" tabindex="-1" id="login">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>Modal body text goes here.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="modal" tabindex="-1" id="join">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>Modal body text goes here.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
 
     </header>
     <section>
@@ -107,18 +66,24 @@
     <div class="modal" tabindex="-1" id="login">
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <div class="modal-header bg-dark">
+            <h5 class="modal-title color-white">Sign in</h5>
+            <button type="button" class="close color-white" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <p>Modal body text goes here.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <form>
+              <div class="form-group text-fam">
+                <label for="exampleInputUser1" class="text-weight">Username</label>
+                <input type="input" class="form-control" id="exampleInputUser1" aria-describedby="userHelp" placeholder="Username" required>
+              </div>
+              <div class="form-group text-fam">
+                <label for="exampleInputPassword1" class="text-weight">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+              </div>
+              <button type="submit" class="btn btn-success text-weight">Log in</button>
+            </form>
           </div>
         </div>
       </div>
@@ -127,18 +92,28 @@
     <div class="modal" tabindex="-1" id="join">
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <div class="modal-header bg-dark">
+            <h5 class="modal-title color-white">Sign up</h5>
+            <button type="button" class="close color-white" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <p>Modal body text goes here.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <form>
+              <div class="form-group text-fam">
+                <label for="exampleInputEmail1" class="text-weight">Email Address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address" required>
+              </div>
+              <div class="form-group text-fam">
+                <label for="exampleInputPassword1" class="text-weight">Create Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Create Password" required>
+              </div>
+              <div class="form-group text-fam">
+                <label for="exampleInputPassword1" class="text-weight">Repeat Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Repeat Password" required>
+              </div>
+              <button type="submit" class="btn btn-success text-weight">Join Us!</button>
+            </form>
           </div>
         </div>
       </div>
