@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 
 /*----------------------------------------Colours*/
+
 .color-white {
     color: #fff;
 }
 /*----------------------------------------Text*/
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -18,7 +20,7 @@
 }
 /*----------------------------------------Heading*/
 
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -59,10 +61,10 @@ body{
 
 .navbar {
     padding: 0px;
-    background-color: rgba( 0, 0, 0, 0.3);
+    background-color: rgba( 0, 0, 0, 0.6);
     height: 75px;
     width: 100%;
-    }
+}
 
 .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
     position: relative;
@@ -85,36 +87,452 @@ body{
     position: relative;
     left: 150px;
 }
-
+/*----------------------------------------Section*/
 /*----------------------------------------Footer*/
-footer{
-    min-height: 70px;
+
+footer {
+    min-height: 60px;
+    height: 75px;
+}
+
+.email-info h5 {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    margin: 0px;
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+}
+
+.email-info p {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    display: inline;
+    text-align: justify;
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+}
+
+.fa-envelope {
+    position: inherit;
+    top: 32px;
+    left: 20px;
+    font-size: 30px;
+}
+.phone-info h5  {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    margin: 0px;
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 20px;
+    position: relative;
+    top: 29px;
+}
+
+.phone-info p {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    display: inline;
+    text-align: justify;
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+
+.fa-phone-alt {
+    position: inherit;
+    top: 32px;
+    left: 20px;
+    font-size: 30px;
+}
+
+.social-links {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.social-items {
+    float: left;
+}
+
+.social-items a {
+    padding: 2px;
+    font-size: 35px;
+    margin: 10px;
+    position: relative;
+    top: 15px;
+    left: 50px;
 }
 /*----------------------------------------Hover.css*/
-.nav-link:hover{
+
+.nav-link:hover {
     background-color: #6c757d;
     border-color: #6c757d;
     transition: ease-in;
 }
+
+.social-items a:hover {
+    color: #fff;
+}
+
+.social-items i:hover {
+    color: #0c9600;
+}
+
 /*----------------------------------------Media queries*/
 
 @media only screen and (max-width: 576px) {
+
+/*----------------------Header queries*/
+.logo {
+    width: 165px;
+    position: relative;
+    z-index: 30;
+    bottom: 5px;
+    left: 0px;
+}
+
+.navbar-toggler {
+    margin-right: 15px;
+    font-size: 12px;
+    position: relative;
+    bottom: 3px;
+}
+
+.navbar {
+    height: 50px;
+}
+
+.navbar-nav-scroll {
+    max-height: 75vh;
+    overflow-y: auto;
+    background-color: rgba( 0, 0, 0, 0.6);
+    margin-top: -12px;
+}
+
+.user-input {
+    position: relative;
+    display: inline-block;
+    top: 4px;
+    left: 300px;
+    padding-right: 13px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-right: -180px;
+    margin-left: 3px;
+}
+
+.slogan {
+    position: relative;
+    bottom: 135px;
+}
+
+.slogan h3 {
+    font-size: 11px;
+    position: relative;
+    right: 21px;
+}
+
+.sign-up-button {
+    position: relative;
+    bottom: 60px;
+    font-size: 11px;
+    margin-left: -105px;
+}
+
+.modal {
+    padding-right: 17px;
+    padding-left: 10px;
+}
+
+/*-----------------------Section queries*/
+/*-----------------------Footer queries*/
+
+footer {
+    min-height: 60px;
+    height: 130px;
+}
+
+.email-info h5 {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    margin: 0px;
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+}
+
+.email-info p {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    display: inline;
+    text-align: justify;
+    position: relative;
+    top: 10px;
+    font-size: 16px;
+}
+
+.fa-envelope {
+    position: inherit;
+    top: 10px;
+    left: 30px;
+    font-size: 17px;
+}
+
+.phone-info h5  {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    margin: 0px;
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 15px;
+    position: relative;
+    top: 16px;
+    right: 0px;
+}
+
+.phone-info p {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    display: inline;
+    text-align: justify;
+    position: relative;
+    top: 15px;
+    font-size: 16px;
+    right: 0px;
+}
+
+.fa-phone-alt {
+    position: inherit;
+    top: 15px;
+    left: 30px;
+    font-size: 17px;
+}
+
+.social-items a {
+    padding: 2px;
+    font-size: 23px;
+    margin: 10px;
+    position: relative;
+    top: 22px;
+    left: 50px;
+}
+
+}
+@media only screen and (min-width: 576px) {
+    
+/*----------------------Header queries*/
+
+.logo {
+    width: 175px;
+    position: relative;
+    z-index: 30;
+    bottom: 5px;
+    left: 0px;
+}
+
+.navbar-nav-scroll {
+    max-height: 75vh;
+    overflow-y: auto;
+    background-color: rgba( 0, 0, 0, 0.6);
+    margin-top: -10.5px;
+    padding-bottom: 28px;
+}
+
+.navbar-toggler {
+    margin-right: 15px;
+    font-size: 13px;
+    position: relative;
+    bottom: 3px;
+}
+
+.navbar {
+    height: 55px;
+}
+
+.slogan {
+    position: relative;
+    bottom: 138px;
+}
+
+.slogan h3 {
+    font-size: 14px;
+    position: relative;
+    left: 50px;
+}
+
+.sign-up-button {
+    position: relative;
+    bottom: 68px;
+    font-size: 15px;
+    margin-left: -20px;
+}
+
+.modal {
+    padding-right: 17px;
+    padding-left: 10px;
+}
+
+
+/*-----------------------Section queries*/
+/*-----------------------Footer queries*/
+}
+@media only screen and (min-width: 768px) {
+
+/*----------------------Header queries*/
+.logo {
+    width: 185px;
+    position: relative;
+    z-index: 30;
+    bottom: 0px;
+    left: 0px;
+}
+
+.navbar {
+    height: 60px;
+}
+
+.nav-item {
+    margin-left: -14px;
+    position: relative;
+    top: 17px;
+}
+
+.user-input {
+    position: relative;
+    left: 131px;
+    font-size: 13px;
+    top: 17px;
+}
+
+.slogan {
+    position: relative;
+    bottom: 165px;
+}
+
+.slogan h3 {
+    font-size: 17px;
+    position: relative;
+    left: 45px;
+}
+
+.sign-up-button {
+    position: relative;
+    bottom: 80px;
+    font-size: 19px;
+    margin-left: -20px;
+}
+
+.modal {
+    padding-right: 17px;
+    padding-left: 10px;
+}
+/*-----------------------Section queries*/
+/*-----------------------Footer queries*/
+}
+@media only screen and (min-width: 992px) {
+
+/*----------------------Header queries*/
+
+.logo {
+    width: 185px;
+    position: relative;
+    z-index: 30;
+    bottom: 0px;
+    left: 0px;
+}
+
+.navbar {
+    height: 60px;
+}
+
+.nav-item {
+    margin-left: -7px;
+}
+
+.user-input {
+    position: relative;
+    left: 131px;
+    font-size: 14px;   
+}
+
+.slogan {
+    position: relative;
+    bottom: 250px;
+}
+
+.slogan h3 {
+    font-size: 17px;
+    position: relative;
+    left: 45px;
+}
+
+.sign-up-button {
+    position: relative;
+    bottom: 80px;
+    font-size: 19px;
+    margin-left: -20px;
+}
+
+.modal {
+    padding-right: 17px;
+    padding-left: 10px;
+}
+/*-----------------------Section queries*/
+/*-----------------------Footer queries*/
+}
+@media only screen and (min-width: 1200px) {
+
+/*----------------------Header queries*/
+    .logo {
+        width: 195px;
+        position: relative;
+        z-index: 30;
+        bottom: 0px;
+        left: 0px;
+    }
+    
+    .navbar {
+        height: 65px;
+    }
+    
+    .user-input {
+        position: relative;
+        left: 15px;
+        top: 22px;
+        font-size: 16px;   
+    }
+    
     .slogan {
         position: relative;
-        bottom: 250px;
-        left: 65px;
+        bottom: 300px;
     }
-
+    
     .slogan h3 {
-        font-size: 18px;
+        font-size: 19px;
+        position: relative;
+        left: 45px;
     }
-
+    
     .sign-up-button {
         position: relative;
-        left: 50px;
+        bottom: 80px;
+        font-size: 19px;
+        margin-left: -20px;
     }
+    
+    .modal {
+        padding-right: 17px;
+        padding-left: 10px;
+    }    
+
+/*-----------------------Section queries*/
+/*-----------------------Footer queries*/    
 }
-@media only screen and (min-width: 576px) {}
-@media only screen and (min-width: 768px) {}
-@media only screen and (min-width: 992px) {}
-@media only screen and (min-width: 1200px) {}
