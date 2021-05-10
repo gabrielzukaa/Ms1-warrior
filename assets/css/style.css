@@ -36,12 +36,6 @@ body{
     margin-top: 6px;
 }
 
-.nav-link:hover{
-    background-color: #6c757d;
-    border-color: #6c757d;
-    transition: ease-in;
-}
-
 .user-input {
     position: relative;
     display: inline-block;
@@ -56,7 +50,7 @@ body{
     left: 100px;
 }
 
-#hero-vid {
+.hero-vid {
     width: 100%;
     height: auto;
     position: relative;
@@ -81,9 +75,45 @@ body{
     padding: 0px !important;
 }
 
+.slogan {
+    position: relative;
+    bottom: 500px;
+    left: 90px;
+}
+
+.sign-up-button {
+    position: relative;
+    left: 150px;
+}
+
+/*----------------------------------------Footer*/
+footer{
+    min-height: 70px;
+}
+/*----------------------------------------Hover.css*/
+.nav-link:hover{
+    background-color: #6c757d;
+    border-color: #6c757d;
+    transition: ease-in;
+}
 /*----------------------------------------Media queries*/
 
-@media only screen and (max-width: 576px) {}
+@media only screen and (max-width: 576px) {
+    .slogan {
+        position: relative;
+        bottom: 250px;
+        left: 65px;
+    }
+
+    .slogan h3 {
+        font-size: 18px;
+    }
+
+    .sign-up-button {
+        position: relative;
+        left: 50px;
+    }
+}
 @media only screen and (min-width: 576px) {}
 @media only screen and (min-width: 768px) {}
 @media only screen and (min-width: 992px) {}
