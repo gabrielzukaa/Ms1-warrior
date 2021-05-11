@@ -52,7 +52,7 @@ body {
     left: 100px;
 }
 
-.hero-vid {
+#hero-vid {
     width: 100%;
     height: auto;
     position: relative;
@@ -63,7 +63,6 @@ body {
     padding: 0px;
     background-color: rgba( 0, 0, 0, 0.6);
     height: 75px;
-    width: 100%;
 }
 
 .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
@@ -89,10 +88,8 @@ body {
 }
 /*----------------------------------------Section*/
 /*----------------------------------------Footer*/
-
 footer {
-    min-height: 60px;
-    height: 75px;
+    min-height: 40vh;
 }
 
 .email-info h5 {
@@ -190,10 +187,10 @@ footer {
 
 /*----------------------Header queries*/
 .logo {
-    width: 165px;
+    width: 166px;
     position: relative;
     z-index: 30;
-    bottom: 5px;
+    bottom: 9px;
     left: 0px;
 }
 
@@ -201,25 +198,25 @@ footer {
     margin-right: 15px;
     font-size: 12px;
     position: relative;
-    bottom: 3px;
+    bottom: 7px;
 }
 
 .navbar {
-    height: 50px;
+    height: 53px;
 }
 
 .navbar-nav-scroll {
     max-height: 75vh;
     overflow-y: auto;
     background-color: rgba( 0, 0, 0, 0.6);
-    margin-top: -12px;
+    margin-top: -19px;
 }
 
 .user-input {
     position: relative;
     display: inline-block;
     top: 4px;
-    left: 300px;
+    left: 230px;
     padding-right: 13px;
     font-size: 16px;
     margin-bottom: 10px;
@@ -252,11 +249,6 @@ footer {
 
 /*-----------------------Section queries*/
 /*-----------------------Footer queries*/
-
-footer {
-    min-height: 60px;
-    height: 130px;
-}
 
 .email-info h5 {
     font-family: "Exo",sans-serif;
@@ -334,27 +326,32 @@ footer {
     width: 175px;
     position: relative;
     z-index: 30;
-    bottom: 5px;
+    bottom: 11px;
     left: 0px;
-}
-
-.navbar-nav-scroll {
-    max-height: 75vh;
-    overflow-y: auto;
-    background-color: rgba( 0, 0, 0, 0.6);
-    margin-top: -10.5px;
-    padding-bottom: 28px;
 }
 
 .navbar-toggler {
     margin-right: 15px;
     font-size: 13px;
     position: relative;
-    bottom: 3px;
+    bottom: 7px;
 }
 
 .navbar {
     height: 55px;
+}
+
+.navbar-nav-scroll {
+    max-height: 75vh;
+    overflow-y: auto;
+    background-color: rgba( 0, 0, 0, 0.6);
+    margin-top: -20.5px;
+}
+
+.user-input {
+    position: relative;
+    top: -10px;
+    left: 230px;
 }
 
 .slogan {
@@ -396,13 +393,20 @@ footer {
 }
 
 .navbar {
-    height: 60px;
+    height: 62px;
 }
 
 .nav-item {
     margin-left: -14px;
     position: relative;
-    top: 17px;
+    top: 12px;
+}
+
+.navbar-nav-scroll {
+    max-height: 75vh;
+    overflow-y: auto;
+    background: none;
+    margin-top: -22px;
 }
 
 .user-input {
@@ -450,7 +454,7 @@ footer {
 }
 
 .navbar {
-    height: 60px;
+    height: 63px;
 }
 
 .nav-item {
@@ -506,7 +510,7 @@ footer {
     .user-input {
         position: relative;
         left: 15px;
-        top: 22px;
+        top: 17px;
         font-size: 16px;   
     }
     
