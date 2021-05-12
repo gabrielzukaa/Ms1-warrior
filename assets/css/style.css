@@ -5,6 +5,10 @@
 .color-white {
     color: #fff;
 }
+
+.grey-color {
+    background-color: #1f1f1f;
+}
 /*----------------------------------------Text*/
 
 .uppercase {
@@ -42,14 +46,9 @@ body {
     position: relative;
     display: inline-block;
     top: 4px;
-    left: 170px;
+    margin-right: 5px;
     padding-right: 13px;
     font-size: 16px;
-}
-
-.nav-item {
-    position: relative;
-    left: 100px;
 }
 
 #hero-vid {
@@ -86,12 +85,8 @@ body {
     position: relative;
     left: 150px;
 }
-/*----------------------------------------Section*/
+/*----------------------------------------Main*/
 /*----------------------------------------Footer*/
-
-#footer-bottom {
-    min-height: 100vh;
-}
 
 .email-info h5 {
     font-family: "Exo",sans-serif;
@@ -159,6 +154,10 @@ body {
     position: relative;
     left: 50px;
 }
+
+footer {
+    min-height: 65px;
+}
 /*----------------------------------------Hover.css*/
 
 .nav-link:hover {
@@ -204,17 +203,27 @@ body {
     overflow-y: auto;
     background-color: rgba( 0, 0, 0, 0.6);
     margin-top: -19px;
+    overflow-x: hidden;
+    height: 230px;
+}
+
+.nav-link {
+    text-align: center;
+    background-color: #1f1f1f;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 1px;
 }
 
 .user-input {
     position: relative;
     display: inline-block;
-    top: 4px;
+    top: 13px;
     left: 230px;
     padding-right: 13px;
-    font-size: 16px;
+    font-size: 13px;
     margin-bottom: 10px;
-    margin-right: -180px;
+    margin-right: -160px;
     margin-left: 3px;
 }
 
@@ -224,16 +233,18 @@ body {
 }
 
 .slogan h3 {
-    font-size: 11px;
+    font-size: 12px;
     position: relative;
-    right: 21px;
+    right: 60px;
+    top: 5px;
+    width: max-content;
 }
 
 .sign-up-button {
     position: relative;
-    bottom: 60px;
+    bottom: 55px;
     font-size: 11px;
-    margin-left: -105px;
+    margin-left: -135px;
 }
 
 .modal {
@@ -241,13 +252,13 @@ body {
     padding-left: 10px;
 }
 
-/*-----------------------Section queries*/
+/*-----------------------Main queries*/
 /*-----------------------Footer queries*/
 
 .email-info h5 {
     font-family: "Exo",sans-serif;
     line-height: 28px;
-    margin: 0px;
+    margin-top: 7px;
     display: inline-block;
     padding-left: 35px;
     font-size: 15px;
@@ -265,7 +276,7 @@ body {
 
 .fa-envelope {
     position: inherit;
-    left: 15px;
+    left: 28px;
     font-size: 17px;
 }
 
@@ -333,12 +344,21 @@ body {
     overflow-y: auto;
     background-color: rgba( 0, 0, 0, 0.6);
     margin-top: -20.5px;
+    overflow-x: hidden;
+}
+
+.nav-link {
+    text-align: center;
+    background-color: #1f1f1f;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 1px;
 }
 
 .user-input {
     position: relative;
-    top: -10px;
-    left: 230px;
+    top: 10px;
+    left: 350px;
 }
 
 .slogan {
@@ -350,6 +370,7 @@ body {
     font-size: 14px;
     position: relative;
     left: 50px;
+    bottom: 6px;
 }
 
 .sign-up-button {
@@ -365,8 +386,73 @@ body {
 }
 
 
-/*-----------------------Section queries*/
+/*-----------------------Main queries*/
 /*-----------------------Footer queries*/
+
+.email-info h5 {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    margin-top: 25px;
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 15px;
+    position: relative;   
+}
+
+.email-info p {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    display: inline;
+    text-align: justify;
+    position: relative;
+    font-size: 16px;
+}
+
+.fa-envelope {
+    position: inherit;
+    left: 28px;
+    font-size: 20px;
+}
+
+.phone-info h5  {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    margin-top: 25px;
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 15px;
+    position: relative;
+    right: 0px;
+}
+
+.phone-info p {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    display: inline;
+    text-align: justify;
+    position: relative;
+    font-size: 16px;
+    right: 0px;
+}
+
+.fa-phone-alt {
+    position: inherit;
+    left: 30px;
+    font-size: 17px;
+}
+
+.social-items {
+    position: relative;
+    margin-top: 20px;
+}
+
+.social-items a {
+    padding: 2px;
+    font-size: 24px;
+    position: relative;
+    left: 30px;
+}
+
 }
 @media only screen and (min-width: 768px) {
 
@@ -394,6 +480,10 @@ body {
     overflow-y: auto;
     background: none;
     margin-top: -22px;
+}
+
+.nav-link {
+    background: none;
 }
 
 .user-input {
@@ -425,7 +515,7 @@ body {
     padding-right: 17px;
     padding-left: 10px;
 }
-/*-----------------------Section queries*/
+/*-----------------------Main queries*/
 /*-----------------------Footer queries*/
 }
 @media only screen and (min-width: 992px) {
@@ -450,7 +540,7 @@ body {
 
 .user-input {
     position: relative;
-    left: 131px;
+    
     font-size: 14px;   
 }
 
@@ -476,7 +566,7 @@ body {
     padding-right: 17px;
     padding-left: 10px;
 }
-/*-----------------------Section queries*/
+/*-----------------------Main queries*/
 /*-----------------------Footer queries*/
 }
 @media only screen and (min-width: 1200px) {
@@ -496,7 +586,7 @@ body {
     
     .user-input {
         position: relative;
-        left: 15px;
+        left: -120px;
         top: 17px;
         font-size: 16px;   
     }
@@ -524,6 +614,6 @@ body {
         padding-left: 10px;
     }    
 
-/*-----------------------Section queries*/
+/*-----------------------Main queries*/
 /*-----------------------Footer queries*/    
 }
