@@ -88,8 +88,9 @@ body {
 }
 /*----------------------------------------Section*/
 /*----------------------------------------Footer*/
-footer {
-    min-height: 40vh;
+
+#footer-bottom {
+    min-height: 100vh;
 }
 
 .email-info h5 {
@@ -100,7 +101,6 @@ footer {
     padding-left: 35px;
     font-size: 20px;
     position: relative;
-    top: 30px;
 }
 
 .email-info p {
@@ -109,13 +109,11 @@ footer {
     display: inline;
     text-align: justify;
     position: relative;
-    top: 30px;
     font-size: 18px;
 }
 
 .fa-envelope {
     position: inherit;
-    top: 32px;
     left: 20px;
     font-size: 30px;
 }
@@ -127,7 +125,6 @@ footer {
     padding-left: 35px;
     font-size: 20px;
     position: relative;
-    top: 29px;
 }
 
 .phone-info p {
@@ -136,13 +133,11 @@ footer {
     display: inline;
     text-align: justify;
     position: relative;
-    top: 30px;
     font-size: 20px;
 }
 
 .fa-phone-alt {
     position: inherit;
-    top: 32px;
     left: 20px;
     font-size: 30px;
 }
@@ -162,7 +157,6 @@ footer {
     font-size: 35px;
     margin: 10px;
     position: relative;
-    top: 15px;
     left: 50px;
 }
 /*----------------------------------------Hover.css*/
@@ -257,8 +251,7 @@ footer {
     display: inline-block;
     padding-left: 35px;
     font-size: 15px;
-    position: relative;
-    top: 10px;
+    position: relative;   
 }
 
 .email-info p {
@@ -267,14 +260,12 @@ footer {
     display: inline;
     text-align: justify;
     position: relative;
-    top: 10px;
     font-size: 16px;
 }
 
 .fa-envelope {
     position: inherit;
-    top: 10px;
-    left: 30px;
+    left: 15px;
     font-size: 17px;
 }
 
@@ -286,7 +277,6 @@ footer {
     padding-left: 35px;
     font-size: 15px;
     position: relative;
-    top: 16px;
     right: 0px;
 }
 
@@ -296,14 +286,12 @@ footer {
     display: inline;
     text-align: justify;
     position: relative;
-    top: 15px;
     font-size: 16px;
     right: 0px;
 }
 
 .fa-phone-alt {
     position: inherit;
-    top: 15px;
     left: 30px;
     font-size: 17px;
 }
@@ -313,7 +301,6 @@ footer {
     font-size: 23px;
     margin: 10px;
     position: relative;
-    top: 22px;
     left: 50px;
 }
 
