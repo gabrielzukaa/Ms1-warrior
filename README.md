@@ -7,7 +7,7 @@
  
 [View deployed site here]()
 
-![Home-image](assets/images/pexels-cottonbro-4752856.jpg)
+![Home-image](assets/images/pexels-cottonbro-4752856_Easy-Resize.com.jpg)
 
 <hr>
 

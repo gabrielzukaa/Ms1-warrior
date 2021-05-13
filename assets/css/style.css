@@ -6,7 +6,7 @@
     color: #fff;
 }
 
-.grey-color {
+.bg-grey-color {
     background-color: #1f1f1f;
 }
 /*----------------------------------------Text*/
@@ -50,6 +50,24 @@ body {
     padding-right: 13px;
     font-size: 16px;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0px;
+  }
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 0px;
+  }
+  
+.column img {
+    margin-top: 0px;
+    vertical-align: middle;
+    width: 100%;
+  }
 
 #hero-vid {
     width: 100%;
@@ -463,6 +481,19 @@ footer {
 }
 
 }
+@media screen and (max-width: 600px) { /*----------------------Gallery queries*/
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
 @media only screen and (min-width: 768px) {
 
 /*----------------------Header queries*/
@@ -479,10 +510,9 @@ footer {
 }
 
 .nav-item {
-    margin-right: -100px;
     position: relative;
     top: 12px;
-    right: 62px;
+
 }
 
 .navbar-nav-scroll {
@@ -494,14 +524,16 @@ footer {
 
 .nav-link {
     background: none;
+    font-size: 19px;
+    margin: 20px;
+    position: relative;
+    right: 40px;
 }
 
 .user-input {
     position: relative;
-    left: -5px;
+    left: -25px;
     font-size: 13px;
-    top: 17px;
-    
 }
 
 .slogan {
@@ -618,7 +650,9 @@ footer {
     height: 63px;
 }
 
-.nav-item {
+.nav-link {
+    font-size: 23px;
+    margin: 20px;
     position: relative;
     right: 200px;
 }
@@ -742,10 +776,11 @@ footer {
         height: 65px;
     }
     
-    .nav-item {
+    .nav-link {
+        font-size: 23px;
+        margin: 20px;
         position: relative;
-        right: 350px;
-        margin-left: 12px;
+        right: 365px;
     }
 
     .user-input {
