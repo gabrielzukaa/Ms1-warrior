@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>Warrior</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md sticky-top navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="index.html">
+      <img class="logo" src="assets/images/logo_transparent-removebg-preview.png" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-nav-scroll navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="programmes.html">Programmes</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+      </ul>
+      <button type="button" class="user-input btn btn-success text-weight" data-toggle="modal" data-target="#login">Sign in</button>
+      <button type="button" class="user-input btn btn-success text-weight" data-toggle="modal" data-target="#join">Join Us!</button>
+    </div>
+  </nav>
+  <header>
+  </header>
+  <main>
+  </main>
+  <footer class="container-fluid grey-color color-white">
+    <div class="row">
+      <div class="col-sm-5 col-md-4 email-info">
+          <i class="far fa-envelope"></i>
+          <h5 class="text-fam">Email:</h5>
+          <p>Warrior@outlook.com</p>
+          <span class="sr-only">Email</span>
+      </div>
+      <div class="col-sm-5 col-md-4 phone-info">
+          <i class="fas fa-phone-alt"></i>
+          <h5 class="text-fam">Phone Number:</h5>
+          <p>555 6738</p>
+          <span class="sr-only">Phone Number</span>
+      </div>
+      <div class="col-sm-2 col-md-4">
+        <ul class="social-links">
+          <li class="social-items">
+              <a href="https://www.instagram.com" class="color-white" target="_blank">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                  <span class="sr-only">Instagram</span>
+              </a>
+          </li>
+          <li class="social-items">
+              <a href="https://www.twitter.com" class="color-white" target="_blank">
+                  <i class="fab fa-twitter" aria-hidden="true"></i>
+                  <span class="sr-only">Twitter</span>
+              </a>
+          </li>
+          <li class="social-items">
+              <a href="https://www.facebook.com" class="color-white" target="_blank">
+                  <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                  <span class="sr-only">Facebook</span>
+              </a>
+          </li>
+          <li class="social-items">
+              <a href="https://www.youtube.com/" class="color-white" target="_blank">
+                  <i class="fab fa-youtube" aria-hidden="true"></i>
+                  <span class="sr-only">Youtube</span>
+              </a>
+          </li>
+          </ul>
+      </div>
+    </div>
+  </footer>
+  <div class="modal" tabindex="-1" id="login">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header grey-color">
+          <h5 class="modal-title color-white">Sign in</h5>
+          <button type="button" class="close color-white" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group text-fam">
+              <label for="exampleInputUser1" class="text-weight">Username</label>
+              <input type="text" class="form-control" id="exampleInputUser1" placeholder="Username">
+            </div>
+            <div class="form-group text-fam">
+              <label for="exampleInputPassword1" class="text-weight">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+            </div>
+            <button type="submit" class="btn btn-success text-weight">Log in</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" tabindex="-1" id="join">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header grey-color">
+          <h5 class="modal-title color-white">Sign up</h5>
+          <button type="button" class="close color-white" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group text-fam">
+              <label for="exampleInputEmail1" class="text-weight">Email Address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address" required>
+            </div>
+            <div class="form-group text-fam">
+              <label for="exampleInputPassword2" class="text-weight">Create Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Create Password" required>
+            </div>
+            <div class="form-group text-fam">
+              <label for="exampleInputPassword3" class="text-weight">Repeat Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Repeat Password" required>
+            </div>
+            <button type="submit" class="btn btn-success text-weight">Join Us!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>

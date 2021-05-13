@@ -86,6 +86,9 @@ body {
     left: 150px;
 }
 /*----------------------------------------Main*/
+main {
+    min-height: 100vh;
+}
 /*----------------------------------------Footer*/
 
 .email-info h5 {
@@ -392,7 +395,7 @@ footer {
 .email-info h5 {
     font-family: "Exo",sans-serif;
     line-height: 28px;
-    margin-top: 25px;
+    margin-top: 7px;
     display: inline-block;
     padding-left: 35px;
     font-size: 15px;
@@ -405,24 +408,27 @@ footer {
     display: inline;
     text-align: justify;
     position: relative;
-    font-size: 16px;
+    font-size: 14px;
+    left: 0px;
+    bottom: 0px;
 }
 
 .fa-envelope {
     position: inherit;
     left: 28px;
-    font-size: 20px;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 .phone-info h5  {
     font-family: "Exo",sans-serif;
     line-height: 28px;
-    margin-top: 25px;
+    margin: 0px;
     display: inline-block;
     padding-left: 35px;
-    font-size: 15px;
+    font-size: 14px;
     position: relative;
-    right: 0px;
+    right: 245px;
 }
 
 .phone-info p {
@@ -431,26 +437,29 @@ footer {
     display: inline;
     text-align: justify;
     position: relative;
-    font-size: 16px;
-    right: 0px;
+    font-size: 14px;
+    right: 245px;
+    bottom: 0px;
 }
 
 .fa-phone-alt {
     position: inherit;
-    left: 30px;
+    left: -215px;
     font-size: 17px;
+    margin-top: 45px;
 }
 
 .social-items {
     position: relative;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .social-items a {
     padding: 2px;
     font-size: 24px;
     position: relative;
-    left: 30px;
+    left: -100px;
+    z-index: 999;
 }
 
 }
@@ -470,9 +479,10 @@ footer {
 }
 
 .nav-item {
-    margin-left: -14px;
+    margin-right: -100px;
     position: relative;
     top: 12px;
+    right: 62px;
 }
 
 .navbar-nav-scroll {
@@ -488,9 +498,10 @@ footer {
 
 .user-input {
     position: relative;
-    left: 131px;
+    left: -5px;
     font-size: 13px;
     top: 17px;
+    
 }
 
 .slogan {
@@ -517,6 +528,79 @@ footer {
 }
 /*-----------------------Main queries*/
 /*-----------------------Footer queries*/
+
+.email-info h5 {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    margin-top: 27px;
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 15px;
+    position: relative;   
+}
+
+.email-info p {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    display: inline;
+    text-align: justify;
+    position: relative;
+    font-size: 15px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.fa-envelope {
+    position: inherit;
+    left: 28px;
+    font-size: 19px;
+}
+
+.phone-info {
+    bottom: 15px;
+    left: 20px;
+}
+
+.phone-info h5  {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 15px;
+    position: relative;
+    right: 0px;
+}
+
+.phone-info p {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    display: inline;
+    text-align: justify;
+    position: relative;
+    font-size: 15px;
+    right: 0px;
+}
+
+.fa-phone-alt {
+    position: inherit;
+    left: 30px;
+    font-size: 17px;
+}
+
+.social-items {
+    position: relative;
+    margin-top: 17px;
+    right: 12px;
+}
+
+.social-items a {
+    padding: 2px;
+    font-size: 27px;
+    margin: 10px;
+    position: relative;
+    left: 50px;
+}
+
 }
 @media only screen and (min-width: 992px) {
 
@@ -535,12 +619,13 @@ footer {
 }
 
 .nav-item {
-    margin-left: -7px;
+    position: relative;
+    right: 200px;
 }
 
 .user-input {
     position: relative;
-    
+    left: -75px;
     font-size: 14px;   
 }
 
@@ -568,6 +653,79 @@ footer {
 }
 /*-----------------------Main queries*/
 /*-----------------------Footer queries*/
+
+.email-info h5 {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    margin-top: 27px;
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 17px;
+    position: relative;   
+}
+
+.email-info p {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    display: inline;
+    text-align: justify;
+    position: relative;
+    font-size: 17px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.fa-envelope {
+    position: inherit;
+    left: 28px;
+    font-size: 22px;
+}
+
+.phone-info {
+    bottom: 15px;
+    left: 15px;
+}
+
+.phone-info h5  {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 17px;
+    position: relative;
+    right: 0px;
+}
+
+.phone-info p {
+    font-family: "Exo",sans-serif;
+    line-height: 28px;
+    display: inline;
+    text-align: justify;
+    position: relative;
+    font-size: 17px;
+    right: 0px;
+}
+
+.fa-phone-alt {
+    position: inherit;
+    left: 30px;
+    font-size: 19px;
+}
+
+.social-items {
+    position: relative;
+    margin-top: 11px;
+    right: 12px;
+}
+
+.social-items a {
+    padding: 2px;
+    font-size: 34px;
+    margin: 10px;
+    position: relative;
+    left: 50px;
+}
+
 }
 @media only screen and (min-width: 1200px) {
 
@@ -584,10 +742,16 @@ footer {
         height: 65px;
     }
     
+    .nav-item {
+        position: relative;
+        right: 350px;
+        margin-left: 12px;
+    }
+
     .user-input {
         position: relative;
-        left: -120px;
-        top: 17px;
+        left: -225px;
+        top: 15px;
         font-size: 16px;   
     }
     
