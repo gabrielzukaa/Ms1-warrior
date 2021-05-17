@@ -110,6 +110,14 @@ body {
 main {
     min-height: 100vh;
 }
+.fa-map-marker-alt {
+    font-size: 25px;
+}
+
+.age-position {
+    position: relative;
+    top: 145px;
+}
 
 /*----------------------------------------Footer*/
 
@@ -326,6 +334,26 @@ footer {
     padding: 10px 35px;
 }
 
+.table-bordered td {
+    border: none !important;
+    border-right: solid 1px #ccc !important;
+  }
+
+.table-bordered td,
+.table-bordered th {
+    border: none !important;
+    border-right: solid 1px #ccc !important;
+  }
+
+.table-classes {
+    
+}
+
+.center-location {
+    width: 100%;
+    padding-top: 130px;
+}
+
 /*-----------------------Footer queries*/
 
 .email-info h5 {
@@ -491,6 +519,7 @@ footer {
     right: 15px;
     font-weight: bold;
     text-align: center;
+    left: -42px;
 }
 
 .reasons-why .icon-position {
@@ -503,9 +532,29 @@ footer {
 .login-main {
     position: relative;
     bottom: 130px;
-    left: 40px;
+    left: 70px;
     width: 75%;
     padding: 15px 35px;
+}
+
+.table-bordered td {
+    border: none !important;
+    border-right: solid 1px #ccc !important;
+  }
+
+.table-bordered td,
+.table-bordered th {
+    border: none !important;
+    border-right: solid 1px #ccc !important;
+  }
+
+.table-classes {
+    
+}
+
+.center-location {
+    width: 100%;
+    padding-top: 100px;
 }
 
 /*-----------------------Footer queries*/
@@ -669,13 +718,15 @@ footer {
     font-size: 27px;
     width: 150%;
     position: relative;
-    left: 10%;
+    left: 15%;
     text-align: center;
 }
 
 .reasons-why p {
     font-size: 23px;
     width: 150%;
+    position: relative;
+    left: 55px;
 }
 
 .reasons-why h4 {
@@ -686,11 +737,12 @@ footer {
     right: 15px;
     font-weight: bold;
     text-align: center;
+    left: -10px;
 }
 
 .reasons-why .icon-position {
     position: relative;
-    left: 75%;
+    left: 85%;
     font-size: 24px;
     padding: 15px 0px;
 }
@@ -702,6 +754,17 @@ footer {
     width: 55%;
     padding: 15px 35px;
 }
+
+.table-bordered td {
+    border: none !important;
+    border-right: solid 1px #ccc !important;
+  }
+
+.table-bordered td,
+.table-bordered th {
+    border: none !important;
+    border-right: solid 1px #ccc !important;
+  }
 
 /*-----------------------Footer queries*/
 
@@ -849,6 +912,8 @@ footer {
 .reasons-why p {
     font-size: 23px;
     width: 100%;
+    position: relative;
+    left: -9px;
 }
 
 .reasons-why h4 {
@@ -859,26 +924,40 @@ footer {
     right: 15px;
     font-weight: bold;
     text-align: center;
+    left: -53px;
 }
 
 .reasons-why .icon-position {
     position: relative;
     font-size: 24px;
-    top: 12px;
+    top: 16px;
+    left: -23px;
 }
 
 .login-main {
     float: right;
-    bottom: 430px;
+    bottom: 504px;
     position: relative;
     right: 40px;
-    width: 50%;
+    width: 35%;
     padding: 25px 35px;
+    left: -45px;
 }
 
 .login-main i {
     font-size: 25px;
 }
+
+.table-bordered td {
+    border: none !important;
+    border-right: solid 1px #ccc !important;
+  }
+
+.table-bordered td,
+.table-bordered th {
+    border: none !important;
+    border-right: solid 1px #ccc !important;
+  }
 
 /*-----------------------Footer queries*/
 
@@ -1038,6 +1117,7 @@ footer {
     right: 15px;
     font-weight: bold;
     text-align: center;
+    left: -120px;
 }
 
 .reasons-why .icon-position {
@@ -1048,16 +1128,27 @@ footer {
 
 .login-main {
     float: right;
-    bottom: 430px;
+    bottom: 490px;
     position: relative;
     right: 40px;
-    width: 50%;
+    width: 40%;
     padding: 25px 35px;
 }
 
 .login-main i {
     font-size: 25px;
 }
+
+.table-bordered td {
+    border: none !important;
+    border-right: solid 1px #ccc !important;
+  }
+
+.table-bordered td,
+.table-bordered th {
+    border: none !important;
+    border-right: solid 1px #ccc !important;
+  }
 
 /*-----------------------Footer queries*/    
 }
