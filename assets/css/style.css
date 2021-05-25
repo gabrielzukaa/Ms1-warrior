@@ -119,6 +119,10 @@ main {
     top: 145px;
 }
 
+iframe {
+    transform: translateY(10px);
+}
+
 /*----------------------------------------Footer*/
 
 .email-info h5 {
@@ -345,10 +349,6 @@ footer {
     border-right: solid 1px #ccc !important;
   }
 
-.table-classes {
-    
-}
-
 .center-location {
     width: 100%;
     padding-top: 130px;
@@ -547,11 +547,7 @@ footer {
     border: none !important;
     border-right: solid 1px #ccc !important;
   }
-
-.table-classes {
-    
-}
-
+  
 .center-location {
     width: 100%;
     padding-top: 100px;
@@ -1149,6 +1145,5 @@ footer {
     border: none !important;
     border-right: solid 1px #ccc !important;
   }
-
 /*-----------------------Footer queries*/    
 }
