@@ -125,6 +125,8 @@ iframe {
 
 .classes-table {
     border-style: solid;
+    position: relative;
+    bottom: 100px;
 }
 
 .erick-img {
@@ -356,6 +358,91 @@ footer {
     padding-top: 130px;
 }
 
+.row-cols-4 div {
+    position: relative;
+    left: 30%;
+    margin-top: 2%;
+}
+
+.row-cols-4 h4{
+    margin-bottom: 5%;
+}
+
+.box-position {
+    position: relative;
+    left: 5%;
+}
+
+.friday-position {
+    position: relative;
+    left: 9%;
+}
+
+.box-time {
+    position: relative;
+    left: 10%;
+}
+
+.kickboxing-position {
+    position: relative;
+    right: 3%;
+}
+
+.tuesday-position {
+    position: relative;
+    left: 6%;
+}
+
+.kickboxing-time {
+    position: relative;
+    left: 10%;
+}
+
+.mma-position {
+    position: relative;
+    left: 9%;
+}
+
+.monday-position {
+    position: relative;
+    left: 7%;
+}
+
+.mma-time {
+    position: relative;
+    left: 10%;
+}
+
+.yoga-position {
+    position: relative;
+    left: 6%;
+}
+
+.sunday-position {
+    position: relative;
+    left: 7%;
+}
+
+.yoga-time {
+    position: relative;
+    left: 10%;
+}
+
+.local-icon-home {
+    position: relative;
+    left: 14%;
+}
+
+.gym-location {
+    position: relative;
+    left: 5%;
+}
+
+.warrior-gym {
+    position: relative;
+    left: 3%;
+}
+
 /*-----------------------Footer queries*/
 
 .email-info h5 {
@@ -542,6 +629,91 @@ footer {
 .center-location {
     width: 100%;
     padding-top: 100px;
+}
+
+.row-cols-4 div {
+    position: relative;
+    left: 15%;
+    margin-top: 2%;
+}
+
+.row-cols-4 h4{
+    margin-bottom: 5%;
+}
+
+.box-position {
+    position: relative;
+    left: 5%;
+}
+
+.friday-position {
+    position: relative;
+    left: 9%;
+}
+
+.box-time {
+    position: relative;
+    left: 10%;
+}
+
+.kickboxing-position {
+    position: relative;
+    right: 3%;
+}
+
+.tuesday-position {
+    position: relative;
+    left: 6%;
+}
+
+.kickboxing-time {
+    position: relative;
+    left: 10%;
+}
+
+.mma-position {
+    position: relative;
+    left: 9%;
+}
+
+.monday-position {
+    position: relative;
+    left: 7%;
+}
+
+.mma-time {
+    position: relative;
+    left: 10%;
+}
+
+.yoga-position {
+    position: relative;
+    left: 6%;
+}
+
+.sunday-position {
+    position: relative;
+    left: 7%;
+}
+
+.yoga-time {
+    position: relative;
+    left: 10%;
+}
+
+.local-icon-home {
+    position: relative;
+    left: 14%;
+}
+
+.gym-location {
+    position: relative;
+    left: 5%;
+}
+
+.warrior-gym {
+    position: relative;
+    left: 3%;
 }
 
 /*-----------------------Footer queries*/
@@ -742,6 +914,76 @@ footer {
     padding: 15px 35px;
 }
 
+.row-cols-4 div {
+    position: relative;
+    left: 3%;
+    font-size: 20px;
+}
+
+.row-cols-4 h4{
+    margin-bottom: 11%;
+}
+
+.box-position {
+    position: relative;
+    left: 8%;
+}
+
+.friday-position {
+    position: relative;
+    left: 12%;
+}
+
+.box-time {
+    position: relative;
+    left: 16%;
+}
+
+.tuesday-position {
+    position: relative;
+    left: 9%;
+}
+
+.kickboxing-time {
+    position: relative;
+    left: 16%;
+}
+
+.mma-position {
+    position: relative;
+    left: 16%;
+}
+
+.monday-position {
+    position: relative;
+    left: 10%;
+}
+
+.mma-time {
+    position: relative;
+    left: 16%;
+}
+
+.yoga-position {
+    position: relative;
+    left: 14%;
+}
+
+.sunday-position {
+    position: relative;
+    left: 11%;
+}
+
+.yoga-time {
+    position: relative;
+    left: 16%;
+}
+
+.local-icon-home {
+    position: relative;
+    left: 25%;
+}
+
 /*-----------------------Footer queries*/
 
 .email-info h5 {
@@ -922,6 +1164,13 @@ footer {
 
 .login-main i {
     font-size: 25px;
+}
+
+.row-cols-4 div {
+    position: relative;
+    left: 3%;
+    font-size: 20px;
+    
 }
 
 /*-----------------------Footer queries*/
