@@ -443,6 +443,36 @@ footer {
     left: 3%;
 }
 
+.erick-position {
+    position: relative;
+    left: 5%;
+}
+
+.erick-img {
+    position: relative;
+    left: 25%;
+    width: 40%;
+    height: 30%;
+}
+
+.sophie-position {
+    position: relative;
+    left: 5%;
+}
+
+.sophie-img {
+    position: relative;
+    left: 25%;
+    width: 40%;
+    height: 30%;
+}
+
+.reviews-text {
+    position: relative;
+    width: 70%;
+    margin-top: 5%;
+    left: 15%;
+}
 /*-----------------------Footer queries*/
 
 .email-info h5 {
@@ -714,6 +744,37 @@ footer {
 .warrior-gym {
     position: relative;
     left: 3%;
+}
+
+.erick-position {
+    position: relative;
+    left: 5%;
+}
+
+.erick-img {
+    position: relative;
+    left: 30%;
+    width: 35%;
+    height: 30%;
+}
+
+.sophie-position {
+    position: relative;
+    left: 5%;
+}
+
+.sophie-img {
+    position: relative;
+    left: 30%;
+    width: 35%;
+    height: 30%;
+}
+
+.reviews-text {
+    position: relative;
+    width: 70%;
+    margin-top: 5%;
+    left: 15%;
 }
 
 /*-----------------------Footer queries*/
