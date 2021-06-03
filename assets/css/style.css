@@ -72,13 +72,6 @@ body {
     height: 50%;
 }
 
-#hero-vid {
-    width: 100%;
-    height: auto;
-    position: relative;
-    bottom: 110px;
-}
-
 .navbar {
     padding: 0px;
     background-color: rgba( 0, 0, 0, 0.6);
@@ -127,6 +120,15 @@ iframe {
     border-style: solid;
     position: relative;
     bottom: 100px;
+}
+
+.line-break {
+    position: relative;
+    right: 50%;
+    bottom: 10px;
+    background-color: #1f1f1f;
+    height: 5px;
+    width: 215%;
 }
 
 .erick-img {
@@ -256,7 +258,7 @@ footer {
     background-color: rgba( 0, 0, 0, 0.6);
     margin-top: -19px;
     overflow-x: hidden;
-    height: 230px;
+    height: 213px;
 }
 
 .nav-link {
@@ -279,24 +281,32 @@ footer {
     margin-left: 3px;
 }
 
+#hero-vid {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    bottom: 110px;
+    object-fit: cover;
+}
+
 .slogan {
     position: relative;
     bottom: 135px;
 }
 
 .slogan h3 {
-    font-size: 12px;
+    font-size: 14px;
     position: relative;
-    right: 60px;
-    top: 3px;
+    left: 50px;
+    bottom: 6px;
     width: max-content;
 }
 
 .sign-up-button {
     position: relative;
-    bottom: 55px;
-    font-size: 11px;
-    margin-left: -135px;
+    bottom: 68px;
+    font-size: 15px;
+    margin-left: -20px;
 }
 
 .modal {
@@ -322,10 +332,11 @@ footer {
 }
 
 .reasons-why p {
-    font-size: 18px;
+    font-size: 16px;
     position: relative;
     width: 175%;
     text-align: center;
+    margin-top: 13%;
 }
 
 .reasons-why h4 {
@@ -338,39 +349,44 @@ footer {
     text-align: center;
 }
 
-.reasons-why .icon-position {
-    position: relative;
-    left: 75%;
-    font-size: 24px;
-    padding: 15px 0px;
-}
-
-.login-main {
-    position: relative;
-    bottom: 130px;
-    left: 40px;
-    width: 75%;
-    padding: 10px 35px;
-}
-
 .center-location {
     width: 100%;
     padding-top: 130px;
 }
 
-.row-cols-4 div {
+.heading-classes {
+    position: relative;
+    left: 35%;
+    bottom: 90px;
+    font-size: 26px;
+}
+
+.heading-age {
+    position: relative;
+    left: 38%;
+    bottom: 90px;
+    font-size: 13px;
+}
+
+.table-columns div {
     position: relative;
     left: 30%;
     margin-top: 2%;
 }
 
-.row-cols-4 h4{
+.table-columns h4{
     margin-bottom: 5%;
+}
+
+.moving-line {
+    position: relative;
+    bottom: 28px;
 }
 
 .box-position {
     position: relative;
     left: 5%;
+    bottom: 13px;
 }
 
 .friday-position {
@@ -385,7 +401,8 @@ footer {
 
 .kickboxing-position {
     position: relative;
-    right: 3%;
+    right: 4%;
+    bottom: 13px;
 }
 
 .tuesday-position {
@@ -400,7 +417,8 @@ footer {
 
 .mma-position {
     position: relative;
-    left: 9%;
+    left: 8%;
+    bottom: 13px;
 }
 
 .monday-position {
@@ -416,6 +434,7 @@ footer {
 .yoga-position {
     position: relative;
     left: 6%;
+    bottom: 13px;
 }
 
 .sunday-position {
@@ -443,28 +462,34 @@ footer {
     left: 3%;
 }
 
+.feedback-review {
+    font-size: 26px;
+}
+
 .erick-position {
     position: relative;
-    left: 5%;
+    left: 10%;
+    top: 2%;
+    font-size: 18px;
 }
 
 .erick-img {
     position: relative;
     left: 25%;
-    width: 40%;
-    height: 30%;
+    width: 50%;
 }
 
 .sophie-position {
     position: relative;
-    left: 5%;
+    left: 10%;
+    top: 2%;
+    font-size: 18px;
 }
 
 .sophie-img {
     position: relative;
     left: 25%;
-    width: 40%;
-    height: 30%;
+    width: 50%;
 }
 
 .reviews-text {
@@ -565,6 +590,7 @@ footer {
     background-color: rgba( 0, 0, 0, 0.6);
     margin-top: -20.5px;
     overflow-x: hidden;
+    height: 213px;
 }
 
 .nav-link {
@@ -579,6 +605,14 @@ footer {
     position: relative;
     top: 10px;
     left: 350px;
+}
+
+#hero-vid {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    bottom: 110px;
+    object-fit: cover;
 }
 
 .slogan {
@@ -640,40 +674,45 @@ footer {
     text-align: center;
     left: -42px;
 }
-
-.reasons-why .icon-position {
-    position: relative;
-    left: 75%;
-    font-size: 24px;
-    padding: 15px 0px;
-}
-
-.login-main {
-    position: relative;
-    bottom: 130px;
-    left: 70px;
-    width: 75%;
-    padding: 15px 35px;
-}
   
 .center-location {
     width: 100%;
     padding-top: 100px;
 }
 
-.row-cols-4 div {
+.heading-classes {
     position: relative;
-    left: 15%;
+    left: 40%;
+    bottom: 90px;
+    font-size: 30px;
+}
+
+.heading-age {
+    position: relative;
+    left: 42%;
+    bottom: 93px;
+    font-size: 14px;
+}
+
+.table-columns div {
+    position: relative;
+    left: 12%;
     margin-top: 2%;
 }
 
-.row-cols-4 h4{
+.table-columns h4{
     margin-bottom: 5%;
+}
+
+.moving-line {
+    position: relative;
+    bottom: 34px;
 }
 
 .box-position {
     position: relative;
     left: 5%;
+    bottom: 13px;
 }
 
 .friday-position {
@@ -689,6 +728,7 @@ footer {
 .kickboxing-position {
     position: relative;
     right: 3%;
+    bottom: 13px;
 }
 
 .tuesday-position {
@@ -704,6 +744,7 @@ footer {
 .mma-position {
     position: relative;
     left: 9%;
+    bottom: 13px;
 }
 
 .monday-position {
@@ -719,6 +760,7 @@ footer {
 .yoga-position {
     position: relative;
     left: 6%;
+    bottom: 13px;
 }
 
 .sunday-position {
@@ -746,28 +788,34 @@ footer {
     left: 3%;
 }
 
+.feedback-review {
+    font-size: 30px;
+}
+
 .erick-position {
     position: relative;
     left: 5%;
+    top: 2%;
+    font-size: 24px;
 }
 
 .erick-img {
     position: relative;
     left: 30%;
     width: 35%;
-    height: 30%;
 }
 
 .sophie-position {
     position: relative;
     left: 5%;
+    top: 2%;
+    font-size: 24px;
 }
 
 .sophie-img {
     position: relative;
     left: 30%;
     width: 35%;
-    height: 30%;
 }
 
 .reviews-text {
@@ -904,6 +952,14 @@ footer {
     font-size: 13px;
 }
 
+#hero-vid {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    bottom: 110px;
+    object-fit: cover;
+}
+
 .slogan {
     position: relative;
     bottom: 165px;
@@ -960,29 +1016,33 @@ footer {
     left: -10px;
 }
 
-.reasons-why .icon-position {
+.heading-classes {
     position: relative;
-    left: 85%;
-    font-size: 24px;
-    padding: 15px 0px;
+    left: 43%;
+    bottom: 90px;
+    font-size: 30px;
 }
 
-.login-main {
+.heading-age {
     position: relative;
-    bottom: 130px;
-    left: 165px;
-    width: 55%;
-    padding: 15px 35px;
+    left: 44.5%;
+    bottom: 93px;
+    font-size: 14px;
 }
 
-.row-cols-4 div {
+.table-columns div {
     position: relative;
     left: 3%;
     font-size: 20px;
 }
 
-.row-cols-4 h4{
+.table-columns h4{
     margin-bottom: 11%;
+}
+
+.moving-line {
+    position: relative;
+    bottom: 37px;
 }
 
 .box-position {
@@ -1045,6 +1105,44 @@ footer {
     left: 25%;
 }
 
+.feedback-review {
+    font-size: 30px;
+    position: relative;
+    left: 50%;
+}
+
+.erick-position {
+    position: relative;
+    left: 5%;
+    top: 2%;
+    font-size: 24px;
+}
+
+.erick-img {
+    position: relative;
+    left: 30%;
+    width: 45%;
+}
+
+.sophie-position {
+    position: relative;
+    left: 170%;
+    top: -301px;
+    font-size: 24px;
+}
+
+.sophie-img {
+    position: relative;
+    left: 124%;
+    width: 45%;
+    top: -312px;
+}
+
+.moving-sophie-text {
+    top: -140px;
+    float: right;
+    margin-right: -76%;
+}
 /*-----------------------Footer queries*/
 
 .email-info h5 {
@@ -1206,34 +1304,87 @@ footer {
     left: -53px;
 }
 
-.reasons-why .icon-position {
+.heading-classes {
     position: relative;
-    font-size: 24px;
-    top: 16px;
-    left: -23px;
+    left: 42%;
+    bottom: 90px;
+    font-size: 32px;
 }
 
-.login-main {
-    float: right;
-    bottom: 504px;
+.heading-age {
     position: relative;
-    right: 40px;
-    width: 35%;
-    padding: 25px 35px;
-    left: -45px;
+    left: 44%;
+    bottom: 93px;
+    font-size: 14px;
 }
 
-.login-main i {
-    font-size: 25px;
+.moving-line {
+    position: relative;
+    bottom: 42px;
 }
 
-.row-cols-4 div {
+.table-columns div {
     position: relative;
     left: 3%;
     font-size: 20px;
-    
 }
 
+.table-columns .kickbox-column {
+    position: relative;
+    left: 2%;
+}
+
+.table-columns .mma-column {
+    position: relative;
+    left: 3%;
+}
+
+.table-columns .yoga-column {
+    position: relative;
+    left: 3%;
+}
+
+.local-icon-home {
+    position: relative;
+    left: 23%;
+}
+
+.feedback-review {
+    font-size: 32px;
+}
+
+.erick-position {
+    position: relative;
+    left: 10%;
+    top: 2%;
+    font-size: 27px;
+}
+
+.erick-img {
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
+
+.sophie-position {
+    position: relative;
+    left: 170%;
+    top: -331px;
+    font-size: 27px;
+}
+
+.sophie-img {
+    position: relative;
+    left: 124%;
+    width: 50%;
+    top: -345px;
+}
+
+.moving-sophie-text {
+    top: -129px;
+    float: right;
+    margin-right: -76%;
+}
 /*-----------------------Footer queries*/
 
 .email-info h5 {
@@ -1395,23 +1546,85 @@ footer {
     left: -120px;
 }
 
-.reasons-why .icon-position {
+.heading-classes {
     position: relative;
-    font-size: 24px;
-    top: 12px;
+    left: 42%;
+    bottom: 90px;
+    font-size: 34px;
 }
 
-.login-main {
+.heading-age {
+    position: relative;
+    left: 44%;
+    bottom: 93px;
+    font-size: 14px;
+}
+
+.moving-line {
+    position: relative;
+    bottom: 44px;
+}
+
+.table-columns .boxing-column {
+    position: relative;
+    left: 5%;
+}
+
+.table-columns .kickbox-column {
+    position: relative;
+    left: 2%;
+}
+
+.table-columns .mma-column {
+    position: relative;
+    left: 3%;
+}
+
+.table-columns .yoga-column {
+    position: relative;
+    left: 3%;
+}
+
+.local-icon-home {
+    position: relative;
+    left: 22%;
+}
+
+.feedback-review {
+    font-size: 34px;
+}
+
+.erick-position {
+    position: relative;
+    left: 10%;
+    top: 2%;
+    font-size: 27px;
+}
+
+.erick-img {
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
+
+.sophie-position {
+    position: relative;
+    left: 170%;
+    top: -363px;
+    font-size: 27px;
+}
+
+.sophie-img {
+    position: relative;
+    left: 124%;
+    width: 50%;
+    top: -379px;
+}
+
+.moving-sophie-text {
+    top: -132px;
     float: right;
-    bottom: 490px;
-    position: relative;
-    right: 40px;
-    width: 40%;
-    padding: 25px 35px;
-}
-
-.login-main i {
-    font-size: 25px;
+    margin-right: -76%;
 }
 
 /*-----------------------Footer queries*/    
